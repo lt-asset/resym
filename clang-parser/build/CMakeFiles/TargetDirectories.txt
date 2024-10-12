@@ -1,0 +1,7 @@
+/home/ReSym/clang-parser/build/CMakeFiles/rebuild_cache.dir
+/home/ReSym/clang-parser/build/CMakeFiles/field_access.dir
+/home/ReSym/clang-parser/build/CMakeFiles/clang-tablegen-targets.dir
+/home/ReSym/clang-parser/build/CMakeFiles/acc_gen.dir
+/home/ReSym/clang-parser/build/CMakeFiles/edit_cache.dir
+/home/ReSym/clang-parser/build/CMakeFiles/omp_gen.dir
+/home/ReSym/clang-parser/build/CMakeFiles/intrinsics_gen.dir

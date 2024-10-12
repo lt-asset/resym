@@ -15,7 +15,7 @@ This repository provides code to generate training labels for **VarDecoder** (la
       -v <your data folder>:/home/data \
       dnxie/resym:latest
    ```
-   
+   **Note**: use **absolute path**.
 
 2. **Data**  
    We provide five binary files in the `ReSym/sample_data` folder as an example. Your data folder should contain two subfolders:

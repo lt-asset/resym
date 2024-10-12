@@ -11,11 +11,11 @@ This repository provides code to generate training labels for **VarDecoder** (la
    ```
    ```
    docker run -it --rm --memory=100G --name resym \
-      -v /path/to/resym:/home/ReSym \
-      -v <your data folder>:/home/data \
+      -v /absolute/path/to/resym:/home/ReSym \
+      -v /absolute/path/to/your/data/folder:/home/data \
       dnxie/resym:latest
    ```
-   **Note**: use **absolute path**.
+   
 
 2. **Data**  
    We provide five binary files in the `ReSym/sample_data` folder as an example. Your data folder should contain two subfolders:
@@ -25,8 +25,8 @@ This repository provides code to generate training labels for **VarDecoder** (la
    To use our sample data:
    ```
    docker run -it --rm --memory=100G --name resym \
-      -v /path/to/resym:/home/ReSym \
-      -v /path/to/resym/sample_data:/home/data \
+      -v /absolute/path/to/resym:/home/ReSym \
+      -v /absolute/path/to/resym/sample_data:/home/data \
       dnxie/resym:latest
    ```
 3. **Conda Environment**  

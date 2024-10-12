@@ -41,6 +41,7 @@ This repository provides code to generate training labels for **VarDecoder** (la
 To process the data, run the following command:
 
 ```bash
+cd /home/ReSym/process_data/
 bash process_data.sh /home/data [--clean] [--field]
 ```
 

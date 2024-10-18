@@ -2,6 +2,11 @@
 
 This repository provides artifacts for the paper [**"ReSym: Harnessing LLMs to Recover Variable and Data Structure Symbols from Stripped Binaries"**](https://www.cs.purdue.edu/homes/lintan/publications/resym-ccs24.pdf) (CCS 2024).
 
+🏆 **ACM SIGSAC Distinguished Paper Award Winner**
+
+
+**Note**: We are actively maintaining/updating our artifacts. Please make sure you are using the latest version.
+
 ## Provided Data and Resources
 
 - **Data preparation script**: Located in the `process_data` folder. It generates training data with ground truth symbol information. The script is push-button, and usage instructions are provided in the folder.
@@ -31,6 +36,7 @@ This repository provides artifacts for the paper [**"ReSym: Harnessing LLMs to R
 @article{xie2024resym,
   title={ReSym: Harnessing LLMs to Recover Variable and Data Structure Symbols from Stripped Binaries},
   author={Xie, Danning and Zhang, Zhuo and Jiang, Nan and Xu, Xiangzhe and Tan, Lin and Zhang, Xiangyu},
+  booktitle={Proceedings of the 2024 ACM SIGSAC Conference on Computer and Communications Security},
   year={2024}
 }
 ```

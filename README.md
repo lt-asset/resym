@@ -16,15 +16,7 @@ This repository provides artifacts for the paper [**"ReSym: Harnessing LLMs to R
      - `metadata.json`: Metadata for the binaries, including project information.
      - **Note**: You can generate annotations using the provided scripts in this repository.
 - **Training/inference scripts**: Found in the `training_src` folder for VarDecoder and FieldDecoder models.
-- **Training, testing, and prediction data**: Available on [Zenodo](https://zenodo.org/records/13923982) (`ReSym_data`). This includes:
-   - `fielddecoder_train.jsonl`: Training data for the FieldDecoder.
-   - `fielddecoder_test.jsonl`: Testing data for the FieldDecoder.
-   - `fielddecoder_pred.jsonl`: Prediction results from the FieldDecoder.
-   - `vardecoder_train.jsonl`: Training data for the VarDecoder.
-   - `vardecoder_test.jsonl`: Testing data for the VarDecoder.
-   - `vardecoder_pred.jsonl`: Prediction results from the VarDecoder.
-   - `train_proj.json`: List of projects used for training (split by project, as specified in the paper).
-   - `test_proj.json`: List of projects used for testing (split by project, as specified in the paper).
+- **Training, testing, and prediction data**: Available on [Zenodo](https://zenodo.org/records/13923982) (`ReSym_data`). This includes: training data, testing data, and prediction results for FieldDecoder and VarDecoder. 
 - **Model checkpoints**: Fine-tuned VarDecoder and FieldDecoder model checkpoints are available on [Zenodo](https://zenodo.org/records/13923982).
 - **Final results**: Posterior reasoning results for recovering user-defined data structures in folder `posterior_reasoning`. The details and instructions can be found int the folder.
 

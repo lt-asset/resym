@@ -18,7 +18,7 @@ This repository provides code to generate training labels for **VarDecoder** (la
    
 
 2. **Data**  
-   We provide five binary files in the `ReSym/sample_data` folder as an example. Your data folder should contain two subfolders:
+   We provide two binary files in the `ReSym/sample_data` folder as an example. Your data folder should contain two subfolders:
    - `bin`: Contains **non-stripped binaries** with debug information.
    - `decompiled`: Contains decompiled code from **fully stripped binaries**.
   
@@ -78,11 +78,8 @@ mkdir: created directory '/home/data/logs'
 mkdir: created directory '/home/data/commands'
 mkdir: created directory '/home/data/field_access/'
 mkdir: created directory '/home/data/train_field'
-=== Progress: 0/5 ===
-=== Progress: 1/5 ===
-=== Progress: 2/5 ===
-=== Progress: 3/5 ===
-=== Progress: 4/5 ===
+=== Progress: 0/2 ===
+=== Progress: 1/2 ===
 Cleaning intermediate results.
 Data processing finished. The results can be found in /home/data/train_var and /home/data/train_field.
 ```

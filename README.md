@@ -25,10 +25,21 @@ This repository provides artifacts for the paper [**"ReSym: Harnessing LLMs to R
 
 ## Citing us
 ```
-@article{xie2024resym,
-  title={ReSym: Harnessing LLMs to Recover Variable and Data Structure Symbols from Stripped Binaries},
-  author={Xie, Danning and Zhang, Zhuo and Jiang, Nan and Xu, Xiangzhe and Tan, Lin and Zhang, Xiangyu},
-  booktitle={Proceedings of the 2024 ACM SIGSAC Conference on Computer and Communications Security},
-  year={2024}
+@inproceedings{10.1145/3658644.3670340,
+author = {Xie, Danning and Zhang, Zhuo and Jiang, Nan and Xu, Xiangzhe and Tan, Lin and Zhang, Xiangyu},
+title = {ReSym: Harnessing LLMs to Recover Variable and Data Structure Symbols from Stripped Binaries},
+year = {2024},
+isbn = {9798400706363},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3658644.3670340},
+doi = {10.1145/3658644.3670340},
+abstract = {Decompilation aims to recover a binary executable to the source code form and hence has a wide range of applications in cyber security, such as malware analysis and legacy code hardening. A prominent challenge is to recover variable symbols, including both primitive and complex types such as user-defined data structures, along with their symbol information such as names and types. Existing efforts focus on solving parts of the problem, e.g., recovering only types (without names) or only local variables (without user-defined structures). In this paper, we propose ReSym, a novel hybrid technique that combines Large Language Models (LLMs) and program analysis to recover both names and types for local variables and user-defined data structures. Our method encompasses fine-tuning two LLMs to handle local variables and structures, respectively. To overcome the token limitations inherent in current LLMs, we devise a novel Prolog-based algorithm to aggregate and cross-check results from multiple LLM queries, suppressing uncertainty and hallucinations. Our experiments show that ReSym is effective in recovering variable information and user-defined data structures, substantially outperforming the state-of-the-art methods.},
+booktitle = {Proceedings of the 2024 on ACM SIGSAC Conference on Computer and Communications Security},
+pages = {4554–4568},
+numpages = {15},
+keywords = {large language models, program analysis, reverse engineering},
+location = {Salt Lake City, UT, USA},
+series = {CCS '24}
 }
 ```

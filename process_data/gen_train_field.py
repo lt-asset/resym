@@ -68,18 +68,7 @@ def gen_prompt (align_heap_data):
         'funname': align_heap_data['funname']
     }
     
-def main(src_dir, save_dir):
-    db_name = src_dir.split('/')[-2]
-            
-    for f in tqdm(get_file_list(src_dir)):
-        align_heap_data = read_json(os.path.join(src_dir, f))
-        
-        save_fpath = os.path.join(save_dir, f)
 
-        save_data = gen_prompt (db_name, align_heap_data)
-        
-        dump_json(save_fpath, save_data)
-        
 
 def gen_fielddecoder_data(fname, align_heap_data, save_dir):
         
@@ -88,10 +77,4 @@ def gen_fielddecoder_data(fname, align_heap_data, save_dir):
     save_data = gen_prompt (align_heap_data)
     
     dump_json(save_fpath, save_data)
-if __name__=='__main__':
-    parser = argparse.ArgumentParser()
-    parser.add_argument('src_dir')
-    parser.add_argument('save_dir')
-    args = parser.parse_args()
-    
-    main(args.src_dir, args.save_dir)
+

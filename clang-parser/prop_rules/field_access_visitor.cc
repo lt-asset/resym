@@ -221,6 +221,7 @@ FieldAccessInfo* FieldAccessVisitor::parse_addition(BinaryOperator *bo){
                 info->offset = cast<IntegerLiteral>(rhs)->getValue().getSExtValue();
                 info->lhsType = dref->getDecl()->getType().getAsString();    
                 info->lhsPointeeSize = getPointeeSizeInBytes(dref);
+                info->expr = rewriter.getRewrittenText(castExpr->getSourceRange());
                 auto exprPointeeDetails = getExprPointeeDetails(castExpr);
 
                 info->exprPointeeSize = exprPointeeDetails.first;

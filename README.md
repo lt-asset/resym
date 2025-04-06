@@ -19,7 +19,7 @@ This repository provides artifacts for the paper [**"ReSym: Harnessing LLMs to R
 - **Training, testing, and prediction data**: Available on [Zenodo](https://zenodo.org/records/13923982) (`ReSym_data`). This includes: training data, testing data, and prediction results for FieldDecoder and VarDecoder. 
 - **Model checkpoints**: Fine-tuned VarDecoder and FieldDecoder model checkpoints are available on [Zenodo](https://zenodo.org/records/13923982).
 - **Final results**: Posterior reasoning results for recovering user-defined data structures in folder `posterior_reasoning`. The details and instructions can be found in the folder.
-
+- **Evaluation scripts**: Evaluation scripts for both VarDecoder and FieldDecoder can be found in the `training_src` folder.
 
 
 

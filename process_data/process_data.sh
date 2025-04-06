@@ -132,7 +132,7 @@ process_file() {
 files=($bin_dir/*)
 jobs_cntr=0
 jobs_to_run_num=${#files[@]}
-donefiles=$source_dir"completed_files"
+donefiles=$source_dir/"completed_files"
 rm -f $donefiles
 touch $donefiles
 

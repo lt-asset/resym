@@ -95,6 +95,11 @@ The output is stored in:
 - `train_var`: Contains training data for **VarDecoder**.
 - `train_field`: Contains training data for **FieldDecoder**.
 
+  
+Note that they are not necessarily all for training. They are the data format we used for the models. One can choose to use them as training or testing data.
+
+
+
 ### Example Output for VarDecoder
 
 ```json

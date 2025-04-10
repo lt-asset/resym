@@ -368,7 +368,7 @@ def gen_vardecoder_data(fname, align_stack_data, save_dir, ignore_complex=False)
         code = label_data['code']
         
         code = code.strip()
-        prompt = 'In the following decompiled C program, what are the original name, data type, data size and tag of variables ' 
+        prompt = 'In the following decompiled C program, what are the original variable name and data type of variables ' 
         prompt += ', '.join([f'`{v}`' for v in vars]) + '?\n'
         prompt += f'```\n{code.strip()}\n```'
         oracle = ''
